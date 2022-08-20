@@ -1,0 +1,55 @@
+.pet-fact {
+    background-image: url('../../assets/images/fact.png');
+    background-size: cover;
+}
+
+.col {
+    height: 100vh;
+}
+
+.text-fact {
+    font-size: 3rem;
+    left: 8%;
+    top: 50%;
+    position: absolute;
+    margin: 0;
+    font-family: 'GOODDOG';
+    display: flex;
+    align-items: center;
+}
+
+.purple-text {
+    color: rgb(74, 14, 130);
+    font-family: 'GOODDOG';
+    font-weight: 1rem;
+    font-size: 2rem;
+}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 30px;
+}
+
+.register {
+    text-align: center;
+}
+
+.logo {
+    max-width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        max-width: 70%;
+    }
+
+    .text-fact {
+        left: 5%;
+        width: fit-content;
+    }
+
+    .input-style {
+        width: 18rem;
+    }
+}

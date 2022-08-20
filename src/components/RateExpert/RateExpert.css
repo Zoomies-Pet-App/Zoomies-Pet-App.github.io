@@ -1,0 +1,168 @@
+.box {
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: black;
+}
+
+.profile-image {
+    max-width: 15%;
+}
+
+.content-thanks {
+    width: 35rem;
+}
+
+.content {
+    padding: 3rem;
+}
+
+.comment-box {
+    width: 29rem;
+    height: 7rem;
+}
+
+.btn-text {
+    font-family: 'GOODDOG';
+    font-size: 1.5rem;
+}
+
+.text-large {
+    font-size: 3rem;
+    margin-top: 0rem;
+}
+
+.input100 {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-family: 'GOODDOG';
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.2;
+    padding: 0 5px;
+    border: 0;
+}
+
+.review-flex {
+    width: 50rem;
+}
+
+.normal-text {
+    font-family: 'GOODDOG';
+    font-size: 18px;
+    color: #666666;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+.wrap-input100 {
+    width: 20rem;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 0;
+    margin-bottom: 27px;
+}
+
+.purrfect {
+    width: 56%;
+    margin-left: 2rem;
+}
+
+input {
+    width: 20rem;
+}
+
+.react-datepicker-wrapper {
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+.puppy-font {
+    font-family: 'Puppy';
+    margin-bottom: 0;
+}
+
+.check-text {
+    background-color: blueviolet;
+    font-size: large;
+    font-family: 'Puppy';
+    border-radius: 11px;
+    width: 7rem;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: #4f0c83 !important;
+    border-color: #440dd6 !important;
+}
+
+.radio-btn:hover {
+    background-color: #4f0c83 !important;
+}
+
+.btn-group {
+    z-index: 0;
+}
+
+.experience-text {
+    color: #fe2424;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-large {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .comment-box {
+        width: 20rem;
+    }
+
+    /* .container {
+        width: 94vw;
+        margin: 0;
+    } */
+
+    .profile-image {
+        max-width: 70%;
+        height: 30%;
+        margin-left: 2rem;
+    }
+
+    .review-text {
+        margin: 0 !important;
+    }
+
+    .purrfect {
+        margin-left: 0;
+        width: 85%;
+    }
+
+    .review-flex {
+        width: 100%;
+    }
+
+    .wrap-input100 {
+        width: 15rem;
+    }
+
+    .form {
+        margin-left: 0 !important;
+    }
+
+    input {
+        width: 15rem;
+    }
+
+    .text-large {
+        font-size: 2rem;
+    }
+
+    .purple-text {
+        font-size: 1.5rem;
+    }
+}
