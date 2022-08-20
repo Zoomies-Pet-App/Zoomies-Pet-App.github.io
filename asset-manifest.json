@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.355d27c5.css",
+    "main.js": "/static/js/main.1da828e9.js",
+    "static/js/787.ec1812d9.chunk.js": "/static/js/787.ec1812d9.chunk.js",
+    "static/media/fact.png": "/static/media/fact.ccf45e13bac39fa767e2.png",
+    "static/media/background.jpeg": "/static/media/background.07d9f2da243724ef3519.jpeg",
+    "static/media/background-bnw.jpeg": "/static/media/background-bnw.c0fcccc0bca5c0ab656b.jpeg",
+    "static/media/purrfect.png": "/static/media/purrfect.af2db8fc81271f2f6d14.png",
+    "static/media/GOODDC__.TTF": "/static/media/GOODDC__.61cc06d805b2e6a056ba.TTF",
+    "static/media/dog_very_happy.svg": "/static/media/dog_very_happy.7fc7cb330e343531069e96e3f84cb264.svg",
+    "static/media/dog_happy.svg": "/static/media/dog_happy.9cf484aeb28ee3bed25a7165eed6bf24.svg",
+    "static/media/dog_normal.svg": "/static/media/dog_normal.b8ff83974851fb8392afbb0dff544e0a.svg",
+    "static/media/dog_very_sad.svg": "/static/media/dog_very_sad.55a0d17a3fc4a8738de2f8848e1694a2.svg",
+    "static/media/dog_sad.svg": "/static/media/dog_sad.918597edb1e102a1eac5c6d9825c248b.svg",
+    "static/media/PuppyBellies.ttf": "/static/media/PuppyBellies.2345cd1c19ddb39bcebf.ttf",
+    "static/media/logo-main.svg": "/static/media/logo-main.8c3dc1106805c6dd9f2c9544a46347b3.svg",
+    "static/media/women.png": "/static/media/women.1ed53c073893499d9e68.png",
+    "static/media/check-fill.svg": "/static/media/check-fill.ff832a6152ff05e2b87dee0683468571.svg",
+    "index.html": "/index.html",
+    "main.355d27c5.css.map": "/static/css/main.355d27c5.css.map",
+    "main.1da828e9.js.map": "/static/js/main.1da828e9.js.map",
+    "787.ec1812d9.chunk.js.map": "/static/js/787.ec1812d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.355d27c5.css",
+    "static/js/main.1da828e9.js"
+  ]
+}
