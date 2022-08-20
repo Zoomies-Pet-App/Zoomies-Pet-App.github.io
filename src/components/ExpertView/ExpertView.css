@@ -1,0 +1,74 @@
+.profile-box {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: -1px 8px 12px rgb(79 78 78);
+}
+
+h3 {
+    line-height: 70px;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: rgba(180, 114, 241, 0.291);
+}
+
+.nav-text {
+    font-family: 'GOODDOG';
+    font-size: 2rem;
+    color: blueviolet;
+    --bs-nav-pills-link-active-color: blueviolet
+}
+
+.custom-btn {
+    border: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    color: rgb(149, 60, 233);
+    max-width: 6rem;
+    max-height: 3rem;
+    margin-top: 1rem;
+}
+
+.custom-btn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.logo-expert {
+    max-width: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-expert {
+        max-width: 35%;
+    }
+
+    .main-heading {
+        margin-left: 2rem;
+    }
+
+    .custom-btn {
+        margin-left: 3rem;
+    }
+
+    .profile-box {
+        width: 98vw;
+    }
+
+    h3 {
+        line-height: 30px;
+    }
+
+    .mt-4 {
+        margin-top: 3rem !important;
+    }
+
+    .ratings {
+        margin-left: 2rem !important;
+    }
+}

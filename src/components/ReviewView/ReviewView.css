@@ -1,0 +1,12 @@
+.back {
+    position: absolute;
+    top: 32rem;
+    left: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .back {
+        top: 39rem;
+        left: 2rem;
+    }
+}

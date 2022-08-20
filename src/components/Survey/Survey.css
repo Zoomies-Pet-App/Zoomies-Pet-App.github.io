@@ -1,0 +1,99 @@
+.heading {
+    margin-left: 15%;
+    margin-top: 3%;
+    font-size: 4rem;
+}
+
+.dot {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.green {
+    border-color: rgb(73, 237, 28);
+}
+
+.green-text {
+    color: rgb(73, 237, 28);
+}
+
+.green:hover {
+    background-color: rgb(73, 237, 28);
+}
+
+.purple:hover {
+    background-color: blueviolet;
+}
+
+.purple {
+    border-color: blueviolet;
+}
+
+.dot-xl {
+    width: 5rem;
+    height: 5rem;
+}
+
+.dot-l {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.women {
+    width: 10rem;
+}
+
+.check-image {
+    max-width: 12%;
+}
+
+.next-button {
+    width: 10rem;
+    height: 3rem;
+}
+
+.done-text {
+    color: rgb(74, 14, 130);
+    font-family: 'GOODDOG';
+    font-weight: 1rem;
+    font-size: 4rem;
+}
+
+.done-content {
+    padding: 3rem;
+    width: 27rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .width {
+        width: 100%;
+    }
+
+    .logo-survey {
+        max-width: 40%;
+    }
+
+    .heading {
+        margin-left: 19%;
+        font-size: 2rem;
+    }
+
+    .women {
+        width: 8rem;
+    }
+
+    .dog {
+        width: 7rem;
+    }
+
+    .done-content {
+        width: 23rem;
+    }
+
+    .check-image {
+        max-width: 50%;
+    }
+}
