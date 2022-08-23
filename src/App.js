@@ -2,8 +2,8 @@ import { useNavigate } from 'react-router';
 import './App.css';
 import Logo from './assets/images/logo-main.png';
 import arrow from './assets/images/Arrow.png';
-import Background from './assets/images/background.jpeg';
-import BackgroundBNW from './assets/images/background-bnw.jpeg';
+import Background from './assets/images/background.png';
+import BackgroundBNW from './assets/images/background-bnw.png';
 import { useState } from 'react';
 import {
   ReactCompareSlider,
@@ -19,7 +19,7 @@ function App() {
         <img src={Logo} alt='logo' className='logo-image' />
         <img src={arrow} alt='arrow' className='arrow' />
         <h1 className='pet-text text-white'>For Petexperts</h1>
-        <button onClick={()=>navigate('/login')} className='btn login' >Login</button>
+        <button onClick={() => navigate('/login')} className='btn login' >Login</button>
       </div>
       <ReactCompareSlider
         onlyHandleDraggable={true}

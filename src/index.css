@@ -15,7 +15,7 @@ code {
 @font-face {
   font-family: "GOODDOG";
   src: local("GoodDog"),
-    url("./assets/fonts/GoodDog/GOODDC__.TTF") format("truetype");
+    url("./assets/fonts/GoodDog/GOODDC__.ttf") format("truetype");
   font-weight: bold;
 }
 
