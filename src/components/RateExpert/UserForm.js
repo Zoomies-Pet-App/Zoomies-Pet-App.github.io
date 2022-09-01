@@ -16,7 +16,7 @@ const UserForm = ({ setStep }) => {
             <div class="d-flex flex-column container shadow p-3 mx-auto mb-5 bg-white rounded
             align-items-start text review-flex">
                 <div className='d-flex align-self-center flex-column mx-2 px-2 my-1 review-text align-items-center'>
-                    <h3 className='purple-text puppy-font'>Had a great time at """""""?</h3>
+                    <h3 className='purple-text puppy-font'>Had a great time at Clinic?</h3>
                     <h3 className='purple-text text-large'>
                         Share your experience with other Pet Parents.</h3>
                 </div>
