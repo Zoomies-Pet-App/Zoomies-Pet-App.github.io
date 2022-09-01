@@ -13,7 +13,7 @@ const Login = () => {
             </div>
             <div className='col d-flex flex-column justify-content-center p-5 mx-5'>
                 <img src={Logo} alt="Logo" className='logo py-5' />
-                <h4 className='purple-text'>Register as an Expert to Explore,Link,Record,Manage &amp; Much More!</h4><br />
+                <h4>Register as an Expert to Explore,Link,Record,Manage &amp; Much More!</h4><br />
                 <h3 className='mb-3 m-0'>Sign in</h3>
                 <div class="form-outline mb-3">
                     <input type="email" id="form3Example3"

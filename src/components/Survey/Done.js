@@ -11,7 +11,8 @@ const Done = () => {
           justify-content-center align-items-center">
                 <h1 className='py-2 mb-2 text-center done-text text'>
                     Done!</h1>
-                <h5>Your Survey has been answered and you have been rewarded 80 points.</h5>
+                <h5>Your Survey has been submitted and you have been rewarded with 80 Doggo
+                    points.</h5>
                 <button type="button" class="btn mt-5 mb-2 btn-lg button"
                     onClick={() => navigate('/')}
                     style={{ paddingLeft: '2.5rem', paddingRight: '2.5rem' }}>

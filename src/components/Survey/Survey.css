@@ -16,6 +16,11 @@
     border-color: rgb(73, 237, 28);
 }
 
+.comment-box-1 {
+    width: 55rem;
+    height: 7rem;
+}
+
 .green-text {
     color: rgb(73, 237, 28);
 }
@@ -95,5 +100,9 @@
 
     .check-image {
         max-width: 50%;
+    }
+
+    .comment-box-1 {
+        width: 20rem;
     }
 }
