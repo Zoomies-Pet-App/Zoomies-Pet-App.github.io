@@ -9,15 +9,15 @@
 }
 
 .content-thanks {
-    width: 35rem;
+    max-width: 35rem;
 }
 
 .content {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .comment-box {
-    width: 29rem;
+    width: 100%;
     height: 7rem;
 }
 
@@ -108,8 +108,8 @@ input {
 }
 
 .experience-text {
-    color: #fe2424;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,23 +118,10 @@ input {
         margin-bottom: 2rem;
     }
 
-    .comment-box {
-        width: 20rem;
-    }
-
-    /* .container {
-        width: 94vw;
-        margin: 0;
-    } */
-
     .profile-image {
         max-width: 70%;
         height: 30%;
         margin-left: 2rem;
-    }
-
-    .review-text {
-        margin: 0 !important;
     }
 
     .purrfect {
@@ -163,6 +150,6 @@ input {
     }
 
     .purple-text {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }

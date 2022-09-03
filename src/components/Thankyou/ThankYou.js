@@ -11,11 +11,6 @@ const ThankYou = ({ comment, setStep }) => {
             <img src={Purrfect} className="purrfect" alt='profile' />
             <h1 className='py-2 mb-2 text-center purple-text puppy-font'>
                 Thankyou for your valuable feedback!</h1>
-            <h5>Got a minute?</h5>
-            <div class="form-group text-center">
-                <input type="text-area" class="form-control comment-box"
-                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Comments" />
-            </div>
             <button type="button" class="btn mt-5 mb-2 btn-lg button btn-text"
                 onClick={() => navigate('/survey')}
                 style={{ paddingLeft: '2.5rem', paddingRight: '2.5rem' }}>
